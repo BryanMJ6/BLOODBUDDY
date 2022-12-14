@@ -94,6 +94,6 @@
 
     <div class="box-footer mt20 ">
         <button type="submit" class="btn btn-danger">Registrarme Como donante</button>
-        <a class="btn btn-dark" href="home">Ya estoy registrado Volver a Inicio</a>
+        <a class="btn btn-dark" href="http://127.0.0.1:8000/">Ya estoy registrado Volver a Inicio</a>
     </div>
 </div>

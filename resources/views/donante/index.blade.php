@@ -9,11 +9,11 @@ Donante
 <div class="row justify-content-center">
     <div class="col-sm-7">
         <div class="card">
-            <div class="card-header bg-dark text-white">
+            <div class="card-header">
                 <div style="display: flex; justify-content: space-between; align-items: center;">
 
                     <span id="card_title">
-                        {{ __('Detalles de las ultimas Personas registradas') }}
+                        {{ __('Donante') }}
                     </span>
 
                 </div>
@@ -74,7 +74,7 @@ Donante
                                         🎉¡Muchas gracias por haberte registrado!🎉 
                                         <h2>Aqui esta la lista de las ultimas Personas Registradas<h1>
                                                 <h3>
-                                                    <a class="btn btn-danger" href="home">Regresar al
+                                                    <a class="btn btn-danger" href="http://127.0.0.1:8000/">Regresar al
                                                         Menu de Inicio</a>
                                                         
                         </form>                              
