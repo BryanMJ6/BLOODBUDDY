@@ -17,8 +17,8 @@ Create Donante
 
                 @includeif('partials.errors')
 
-                <div class="card card-default bg-danger p-2 text-dark bg-opacity-25">
-                    <div class="card-header bg-danger text-white">
+                <div class="card card-secondary bg-danger p-2 text-dark bg-opacity-25">
+                    <div class="card-header bg-dark text-white">
                         <h5><span class="card-title">Registro de Donante</span></h5>
                     </div>
                     <div class="card-body">

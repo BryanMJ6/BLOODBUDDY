@@ -60,12 +60,12 @@
     @guest
     @if (Route::has('login'))
     <li class="nav-item">
-         <a class="nav-link" href="{{ route('login') }}">{{ __('Iniciar Sesion') }}</a>
+         <a class="btn btn-dark" href="{{ route('login') }}">{{ __('Iniciar Sesion') }}</a>
     </li>
     @endif
     @if (Route::has('register'))
     <li class="nav-item">
-         <a class="nav-link" href="{{ route('register') }}">{{ __('Registrarme') }}</a>
+         <a class="btn btn-danger" href="{{ route('register') }}">{{ __('Registrarme') }}</a>
     </li>
     @endif
     @else

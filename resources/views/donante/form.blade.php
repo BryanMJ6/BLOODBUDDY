@@ -80,7 +80,7 @@
             </div>
             <div class="form-group">
                 {{ Form::label('dui') }}
-                {{ Form::text('dui', $donante->dui, ['class' => 'form-control' . ($errors->has('dui') ? ' is-invalid' : ''), 'placeholder' => 'Ingresa tu numero de Dui']) }}
+                {{ Form::text('dui', $donante->dui, ['class' => 'form-control' . ($errors->has('dui') ? ' is-invalid' : ''), 'placeholder' => 'Ingresa tu numero de Dui', 'validate pattern=[0-9]{8}-[0-9]{1}' ]) }}
                 {!! $errors->first('dui', '<div class="invalid-feedback">:message</div>') !!}
             </div>
             <div class="form-group">
@@ -94,6 +94,6 @@
 
     <div class="box-footer mt20 ">
         <button type="submit" class="btn btn-danger">Registrarme Como donante</button>
-        <a class="btn btn-dark" href="http://127.0.0.1:8000/">Ya estoy registrado Volver a Inicio</a>
+        <a class="btn btn-dark" href="home">Ya estoy registrado Volver a Inicio</a>
     </div>
 </div>

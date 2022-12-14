@@ -65,28 +65,28 @@
       <div class="carousel-caption">
         <h5>BloodBuddy</h5>
         <p>Te damos la Bienvenida a BloodBuddy</p>
-        <p><a href="cultura"class="btn btn-danger mt-3" >Registrarme</a></p>
+        <p><a href="{{route('register')}}"class="btn btn-danger mt-3" >Registrarme</a></p>
       </div>
     </div>
     <div class="carousel-item">
       <img src="img/donacion.jpg" class="d-block w-100" alt="...">
       <div class="carousel-caption">
-        <h5>Second slide label</h5>
-        <p>Some representative placeholder content for the second slide.</p>
+         <h5>La sangre es vital</h5>
+        <p>la sangre ayuda a curar muchas enfermedades</p>
       </div>
     </div>
     <div class="carousel-item">
       <img src="img/2.jpg" class="d-block w-100" alt="...">
       <div class="carousel-caption">
-        <h5>Third slide label</h5>
-        <p>Some representative placeholder content for the third slide.</p>
+        <h5>Salva vidas</h5>
+        <p>Gracias a la sangre se pueden salvar muchas vidas</p>
       </div>
     </div>
     <div class="carousel-item">
       <img src="img/5.jpg" class="d-block w-100" alt="...">
       <div class="carousel-caption">
-        <h5>Third slide label</h5>
-        <p>Some representative placeholder content for the third slide.</p>
+       <h5>Donar es ayudar</h5>
+        <p>La mejor forma de ayudar es donar</p>
       </div>
     </div>
   </div>
